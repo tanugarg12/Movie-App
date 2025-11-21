@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { asyncloadmovie, removemovie } from "../store/actions/MovieActions";
+import { asyncloadmovie, removemovie } from "../store/actions/movieActions";
 import { useNavigate, useParams, Link, useLocation, Outlet } from "react-router-dom";
 import Loading from "../Components/Loading";
 import HorizontalCards from "./partials/HorizontalCards";
